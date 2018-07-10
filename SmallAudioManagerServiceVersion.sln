@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallAudioManagerServiceVersion", "SmallAudioManagerServiceVersion\SmallAudioManagerServiceVersion.csproj", "{C16D6073-A006-4F32-A270-C320042BF9E7}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SmallAudioManagerServiceInstaller", "SmallAudioManagerServiceInstaller\SmallAudioManagerServiceInstaller.vdproj", "{F7BCA2C4-E522-4983-B7B7-5DBDEEC8D892}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{99CEDAC3-0B0D-47AB-8135-E446FDCBA1C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C16D6073-A006-4F32-A270-C320042BF9E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16D6073-A006-4F32-A270-C320042BF9E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16D6073-A006-4F32-A270-C320042BF9E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16D6073-A006-4F32-A270-C320042BF9E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7BCA2C4-E522-4983-B7B7-5DBDEEC8D892}.Debug|Any CPU.ActiveCfg = Debug
+		{F7BCA2C4-E522-4983-B7B7-5DBDEEC8D892}.Release|Any CPU.ActiveCfg = Release
+		{99CEDAC3-0B0D-47AB-8135-E446FDCBA1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99CEDAC3-0B0D-47AB-8135-E446FDCBA1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99CEDAC3-0B0D-47AB-8135-E446FDCBA1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99CEDAC3-0B0D-47AB-8135-E446FDCBA1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8E8B1E4-3354-475E-8AE0-F5EE51FA6B6E}
+	EndGlobalSection
+EndGlobal
